@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/airplane.jpg);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 600px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    opacity: 0.4;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.name input {
+    opacity: 1px;
+    width: 70%;
+    height: 30px;
+    background-color: rgb(255, 255, 255 1) ;
+}
+
+.container .main input {
+    
+}

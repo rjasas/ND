@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Dist/css/booking.css">
+</head>
+<body>
+    <form action="">
+        <h1>classy booking form</h1>
+        <div class="container">
+            <div class="main">
+                <div class="name">
+                    <label for="name">Full Name*</label>
+                    <input type="name" id="name" name="name" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email ID*</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="departure">
+                    <label for="departure">Departure Date/Time*</label>
+                    <input type="datetime-local" name="departure" required>
+                </div>
+                <div class="return">
+                    <label for="return">Return Date/Time*</label>
+                    <input type="datetime-local" name="departure" required>
+                </div>
+                <div class="pickup">
+                    <label for="pickup">Pickup Adress*</label>
+                    <textarea name="pickup" required></textarea>
+                </div>
+                <div class="destination">
+                    <label for="destination">Destination Adress*</label>
+                    <textarea name="destination" required></textarea>
+                </div>
+                <div class="journey">
+                    <label for="journey">Journey Type*</label>
+                    <select name="journey" required>
+                        <option value="bus">Buss</option>
+                        <option value="train">Train</option>
+                        <option value="ferry">Ferry</option>
+                        <option value="plain">Plain</option>
+                    </select>
+                </div>
+                <div class="passengers">
+                    <label for="passengers">Number of Passengers*</label>
+                    <select name="passengers" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="message">
+                    <label for="message">Additional Message:</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <div>
+                <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
