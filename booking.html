@@ -15,35 +15,35 @@
         <h1>classy booking form</h1>
         <div class="container">
             <div class="main">
-                <div class="name">
+                <div class="nameBar">
                     <label for="name">Full Name*</label>
                     <input type="name" id="name" name="name" required>
                 </div>
-                <div class="email">
+                <div  class="emailBar">
                     <label for="email">Email ID*</label>
                     <input type="email" name="email" required>
                 </div>
-                <div class="phone">
+                <div class="phoneBar">
                     <label for="phone">Phone Number*</label>
                     <input type="tel" id="phone" name="phone" required>
                 </div>
-                <div class="departure">
+                <div class="departureTime">
                     <label for="departure">Departure Date/Time*</label>
                     <input type="datetime-local" name="departure" required>
                 </div>
-                <div class="return">
+                <div class="returnTime">
                     <label for="return">Return Date/Time*</label>
-                    <input type="datetime-local" name="departure" required>
+                    <input type="datetime-local" name="return" required>
                 </div>
-                <div class="pickup">
+                <div class="pickupBar">
                     <label for="pickup">Pickup Adress*</label>
                     <textarea name="pickup" required></textarea>
                 </div>
-                <div class="destination">
+                <div class="destinationBar">
                     <label for="destination">Destination Adress*</label>
                     <textarea name="destination" required></textarea>
                 </div>
-                <div class="journey">
+                <div class="journeyBar">
                     <label for="journey">Journey Type*</label>
                     <select name="journey" required>
                         <option value="bus">Buss</option>
@@ -52,7 +52,7 @@
                         <option value="plain">Plain</option>
                     </select>
                 </div>
-                <div class="passengers">
+                <div class="passengersBar">
                     <label for="passengers">Number of Passengers*</label>
                     <select name="passengers" required>
                         <option value="1">1</option>
@@ -62,12 +62,12 @@
                         <option value="5">5</option>
                     </select>
                 </div>
-                <div class="message">
+                <div class="messageBar">
                     <label for="message">Additional Message:</label>
                     <textarea name="message"></textarea>
                 </div>
-                <div>
-                <input type="submit" value="Submit">
+                <div class="button">
+                    <input type="submit" value="Submit">
                 </div>
             </div>
         </div>

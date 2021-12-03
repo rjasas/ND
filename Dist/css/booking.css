@@ -3,9 +3,6 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0;
     width: 100%;
     height: 100vh;
@@ -23,21 +20,125 @@ h1 {
 }
 
 .container {
+    margin: auto;
     width: 600px;
-    height: 700px;
-    background: rgb(255, 255, 255);
-    opacity: 0.4;
-    display: flex;
-    flex-wrap: wrap ;
-}
-
-.name input {
-    opacity: 1px;
-    width: 70%;
-    height: 30px;
-    background-color: rgb(255, 255, 255 1) ;
-}
-
-.container .main input {
+    height: 600px;
+    background: rgba(255, 255, 255, 0.400);
     
 }
+
+.main {
+    /* width: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nameBar {
+    width: 90%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.emailBar {
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+}
+
+.phoneBar {
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+}
+
+.departureTime {
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+}
+
+.returnTime {
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+}
+
+.pickupBar {
+    margin-top: 15px;
+    width: 90%;
+    height: 50px;
+}
+
+.pickupBar textarea {
+    height: 50px;
+}
+
+.destinationBar {
+    margin-top: 15px;
+    width: 90%;
+    height: 50px;
+}
+
+.destinationBar textarea {
+    height: 50px;
+}
+
+.journeyBar {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+}
+
+.passengersBar {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+}
+
+.messageBar {
+    margin-top: 15px;
+    width: 90%;
+}
+
+.messageBar textarea {
+    height: 50px;
+}
+
+.button {
+    width: 90%;
+    text-align: right;
+    height: 30px;
+    padding-top: 15px;    
+}
+
+.button input {
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(41, 41, 136);
+}
+
+.button input:hover {
+    background-color: rgb(25, 25, 214);
+}
+
+input {
+    float: right;
+    width: 60%;
+    height: 30px;
+}
+
+textarea {
+    float: right;
+    width: 60%;
+}
+
+select {
+    float: right;
+    margin-right: 49.5%;
+    width: 55px;
+}
+
